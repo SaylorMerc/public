@@ -126,8 +126,17 @@ for r in range(heads + 1):  # количество кроликов
             print("Количество фазанов", ph)
             print("---")
 
-some_var = None
+some_var = (2,)
 if some_var is None:
     print("NoneType")
 else:
     print(type(some_var))
+
+# a = '' # пустая строка
+# b = a or 1
+
+# a = ""
+# b = "bar"
+
+# print(1 and a or b)
+
