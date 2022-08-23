@@ -34,6 +34,7 @@ print()
 print("Ответ: индекс последнего отрицательного элемента = ", index_negative)
 print()
 
+def char_frequency():
 text = """
 У лукоморья дуб зелёный;
 Златая цепь на дубе том:
@@ -83,6 +84,7 @@ for char in text:
 for char, cnt in count.items():
     print(f"Символ {char} встречается {cnt} раз")
 
+char_frequency()
 # Условие задачи. Проверьте, является ли заданное число степенью тройки.
 n = int(input("Введите число\n"))
 while True:
