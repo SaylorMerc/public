@@ -2,7 +2,7 @@
 
 x = int(input())
 
-if -30 < x <= -2 or 7 < x <= 25:
+if x <= -3 or x >= 7:
     print('Принадлежит')
 else:
     print('Не принадлежит')
