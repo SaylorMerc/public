@@ -33,7 +33,25 @@ print(counter_dig_3, counter_last_digit, counter_even_digit, total_digit_more_5,
 
 """
 
+"""
 s = input()
-for i in range(-1, -len(s)-1, -1):
-    print(s[i])
+s = s.split()
+if s[0] >= s[1] >= s[2] >= s[3] or s[0] <= s[1] <= s[2] <= s[3]:
+    print('YES')
+else:
+    print('NO')
+"""
+'''
+s = input()
+s = s.split()
+n, m, k, = int(s[0]), int(s[1]), int(s[2])
+proverki = n * k / m
+print(round(proverki))
+'''
 
+numbers = [1, 78, 23, -65, 99, 9089, 34, -32, 0, -67, 1, 11, 111]
+count = 0
+for i in range(len(numbers)):
+    x = numbers[i] ** 2
+    count += x
+print(count)
